@@ -1,0 +1,8 @@
+target/
+application.log
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
