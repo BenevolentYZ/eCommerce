@@ -1,6 +1,6 @@
 target/
 application.log
-
+jenkins.pem
 ### IntelliJ IDEA ###
 .idea
 *.iws
