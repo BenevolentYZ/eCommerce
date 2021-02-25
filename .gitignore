@@ -6,3 +6,4 @@ jenkins.pem
 *.iws
 *.iml
 *.ipr
+*.gz
