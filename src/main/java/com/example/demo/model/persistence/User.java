@@ -28,7 +28,7 @@ public class User {
 	private String username;
 
 	@Column(nullable = false, unique = true)
-	@JsonProperty
+	@JsonIgnore
 	private String password;
 	
 	@OneToOne(cascade = CascadeType.ALL)
