@@ -28,7 +28,6 @@ public class User {
 	private String username;
 
 	@Column(nullable = false, unique = true)
-	@JsonProperty
 	private String password;
 	
 	@OneToOne(cascade = CascadeType.ALL)
@@ -36,10 +35,12 @@ public class User {
 	@JsonIgnore
     private Cart cart;
 
+	@JsonIgnore
 	public String getPassword() {
 		return password;
 	}
 
+	@JsonProperty
 	public void setPassword(String password) {
 		this.password = password;
 	}
